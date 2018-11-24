@@ -1,0 +1,7 @@
+package be.mil.ccvc.springdemo.springdatarest;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface ProjectRepository extends CrudRepository<Project, Long> {
+
+}
